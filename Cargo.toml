@@ -4,7 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-image = "0.23.14"
-imageproc = "0.22.0"
-svg = "0.8.0"
+tokio = { version = "1", features = ["full"] }
+image = "0.23"
+imageproc = "0.22"
+svg = "0.10"
 indicatif = "0.16"
